@@ -1,0 +1,38 @@
+section{
+  padding-top: 50px;
+  padding-bottom: 200px;
+
+  ul{
+    list-style: none;
+  }
+  .inbox {
+    border-right: slategray 2px solid;
+    padding: 0;
+    .userMessage {
+      background: #dfdfdf;
+      height: 100px;
+      padding: 20px;
+      margin-bottom: 2px;
+
+      span {
+        font-weight: bold;
+        font-size: 1.2em;
+        display: inline-block;
+        padding: 10px 20px;
+      }
+
+      .msg {
+        font-size: smaller;
+        margin-left: 20px;
+        display: inline-block;
+      }
+
+      img {
+        border: 2px slategray solid;
+        height: 50px;
+        width: 50px;
+      }
+    }
+  }
+
+}

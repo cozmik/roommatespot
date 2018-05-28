@@ -1,0 +1,77 @@
+section{
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  figure{
+  >div{
+    width: 400px;
+    height: 400px;
+    margin:  0 auto;
+    img{
+      height: 100%;
+    }
+  }
+    figcaption{
+      text-align: center;
+      background: rgba(100, 100, 100, .03);
+      width: 400px;
+      padding: 10px;
+      margin: 0 auto;
+      div{
+        display: inline-block;
+        margin-right: 10px;
+        margin-left: 10px;
+        img{
+        width: 50px;
+        height: 50px;
+        }
+      }
+    }
+
+  }
+  .description{
+    div{
+      margin-bottom: 20px;
+      span{
+        display: inline-block;
+        width: 380px;
+      }
+      span:first-child{
+        display: inline-block;
+        width: 100px;
+        vertical-align: top;
+      }
+    }
+    .title{
+      h4{
+        font-size: 2.5em;
+        margin-bottom: -5px;
+      }
+      span{
+        font-size: 1.2em;
+        display: inline-block;
+        font-weight: 600;
+      }
+    }
+    .contact{
+      span{
+        display: inline-block;
+      }
+      margin-top: 40px;
+      button{
+        cursor: pointer;
+        border: 1px black solid;
+        background: black;
+        color: white;
+        padding: 10px 70px;
+
+        i{
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+
+  .chatSpace{
+  }
+}

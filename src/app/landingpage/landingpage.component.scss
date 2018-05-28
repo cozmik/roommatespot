@@ -1,0 +1,265 @@
+.logoSection{
+  padding: 20px;
+  margin-bottom: 70px;
+  position: fixed;
+}
+
+
+h3{
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 3em;
+  position: relative;
+
+  &:before {
+    border-top: 2px solid #dfdfdf;
+    content:"";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%; left: 0; right: 0; bottom: 0;
+    width: 50%;
+    z-index: -1;
+  }
+
+  span {
+    /* to hide the lines from behind the text, you have to set the background color the same as the container */
+    background: #fff;
+    padding: 0 15px;
+  }
+}
+
+.logo {
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  h2 {
+    font-size: 2.3em;
+    font-weight: bold;
+  }
+}
+.header{
+  padding-top: 14vh;
+}
+
+#testimonies{
+  height: 90vh;
+
+  .holder{
+    position: absolute;
+    top: 35px;
+  }
+  article{
+    width: 45vw;
+    margin: 10px auto;
+    position: relative;
+    img{
+      width: 120px;
+      height: 120px;
+      border: 2px rgba(black, .4) solid;
+      padding: 10px;
+    }
+    h4{
+      position: absolute;
+      top: 30px;
+      left: 150px;
+    }
+    p{
+      border: 2px rgba(black, .4) solid;
+      height: 180px;
+      position: absolute;
+      top: 85px;
+      left: 85px;
+
+      span{
+        display: block;
+        width: 80%;
+        margin: 50px auto;
+      }
+    }
+  }
+  article:not(:last-child){
+    display: none;
+  }
+}
+
+.testimony{
+  height: 100px;
+  width: 100px;
+  margin: 0 65px;
+  display: inline-block;
+  padding: 10px;
+  filter: grayscale(0.8);
+}
+
+$rotation: 0;
+
+@for $i from 0 through 100 {
+  .testimony:nth-of-type(#{$i}) {
+    transform: rotate(random(180)-90 + deg);
+    margin-top: random(100)+ 50 +px;
+  }
+}
+
+.navigation {
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  ul {
+    li {
+      text-transform: lowercase;
+      display: inline-block;
+      padding: 5px 20px;
+      margin: 1px;
+      font-size: 2em;
+      font-weight: 500;
+      a{
+        color: white;
+      }
+    }
+    li:hover {
+      a{
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+      }
+    }
+  }
+}
+
+.spotRoommate{
+  margin: 0 auto 100px;
+  div{
+    text-align: center;
+  }
+  form{
+
+  }
+
+  .navCards {
+    margin: 40px auto;
+    article{
+      display: inline-block;
+    }
+    div {
+      border: white 2px solid;
+      padding:15px 35px;
+      margin: 0 10px;
+      width: 170px;
+      color: white;
+      position: relative;
+      font-weight: 500;
+      div{
+        padding: 32px 40px !important;
+        position: absolute;
+        width: 98%;
+        left: -5%;
+        top: -7px;
+      }
+    }
+    article:hover{
+      div{
+        background: rgba(255, 255, 255, .4);
+        font-weight: bolder;
+        div{
+          padding: 25px 72px !important;
+          top: 0px;
+          width: 100%;
+          left: -10px;
+        }
+      }
+    }
+  }
+}
+
+.hero {
+  margin-top: 50px;
+
+  input{
+    width: 65%;
+    height: 50px;
+    padding: 5px 5px 5px 20px;
+  }
+  button{
+    width: 25%;
+    height: 50px;
+  };
+}
+
+.journey{
+  padding-top: 150px;
+  padding-bottom: 100px;
+  ul{
+    li{
+      display: inline-block;
+      text-align: center;
+      margin-left: 20px;
+      span{
+        border: 4px grey solid;
+        border-radius: 100%;
+        height: 40px;
+        width: 40px;
+        display: block;
+        vertical-align: top;
+        text-align: center;
+        padding-top: 3px;
+        margin: 0 auto 20px;
+      }
+      div{
+        display: inline-block;
+        width: 300px;
+        font-size: 0.8em;
+      }
+      div:after{
+        mix-blend-mode: difference;
+      }
+    }
+  }
+}
+
+
+#contact {
+  padding-top: 100px;
+  margin-bottom: 100px;
+  form {
+    input {
+      padding: 10px;
+      width: 100%;
+    }
+    textarea {
+      padding: 10px;
+      width: 100%;
+      margin-top: 20px;
+      height: 200px;
+      overflow-x: hidden;
+      resize: none;
+    }
+    button {
+      margin-top: 10px;
+      padding: 10px 50px;
+    }
+  }
+}
+
+button{
+  background: transparent;
+  border: 1px rgba(black, .5) solid;
+  border-radius: 0;
+  font-weight: bold;
+}
+
+
+.locationSearch {
+  background: rgba(white, 0.2);
+}
+
+.landing{
+  background: url("/assets/images/bg.jpg");
+  background-size: cover;
+  height: 85vh;
+  position: relative;
+  margin-top: 30px;
+}

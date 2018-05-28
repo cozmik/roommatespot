@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+@import "~bootstrap/scss/bootstrap.scss";
+body{
+  font-family: 'Josefin Slab', serif;;
+}
+
+.topic{
+  height: 0px;
+  width: 0px;
+  color: transparent;
+  display: inline;
+}
+
+input{
+  border: 1px rgba(black, .5) solid;
+  padding: 10px;
+}
+
+button{
+  background: white;
+  border: 2px rgba(black, .5) solid;
+  padding: 10px 40px;
+  color: rgba(black, .7);
+}

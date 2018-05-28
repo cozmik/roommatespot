@@ -1,0 +1,95 @@
+section{
+  margin-bottom: 100px;
+  margin-top: 100px;
+  padding-left: 40px;
+  .profilePix{
+    height: 400px;
+    margin-bottom: 50px;
+    img{
+      height: 100%;
+      width: 350px;
+    }
+  }
+
+  .basicInfo{
+    margin-top: -100px;
+  }
+
+  .profile{
+    .name{
+      font-weight: 600;
+    }
+    .username{
+      font-weight: 500;
+    }
+
+  }
+  div{
+    margin-bottom: 10px;
+  }
+
+  .aboutMe{
+    margin-top: 20px;
+  }
+
+  .currentAdd{
+    margin-top: -120px;
+    margin-bottom: 20px;
+    position: relative;
+    .info{
+      display: inline-block;
+      vertical-align: bottom;
+      margin-left: 40px;
+      position: absolute;
+      right: 0;
+      padding-top: 40px;
+      i{
+        font-size: 1.5em;
+        margin-right: 20px;
+      }
+    }
+    .houseDefaultPix{
+      height: 100px;
+      width: 100px;
+      display: inline-block;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .pastAdd{
+    ul{
+      list-style: none;
+      padding-left: 0px;
+      position: relative;
+      .info{
+        display: inline-block;
+        vertical-align: bottom;
+        margin-left: 40px;
+        position: absolute;
+        right: 0;
+        padding-top: 40px;
+        i{
+          font-size: 2em;
+          margin-right: 20px;
+        }
+      }
+
+      li{
+        background: rgba(0,0,0,.02);
+        margin-bottom: 10px;
+
+        .houseDefaultPix{
+          display: inline-block;
+          height: 100px;
+          width: 100px;
+          img{
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}

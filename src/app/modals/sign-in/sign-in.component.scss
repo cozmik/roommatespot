@@ -1,0 +1,26 @@
+section{
+  padding-top: 20vh;
+  padding-bottom: 40vh;
+  text-align: center;
+  article {
+    padding: 20px;
+    display: inline-block;
+    border: 1px black solid;
+    article {
+      text-align: center;
+      display: inline-block;
+      padding: 50px;
+
+      h2 {
+        margin-bottom: 20px;
+      }
+      form {
+        margin: 0 auto;
+        input {
+          width: 350px;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}

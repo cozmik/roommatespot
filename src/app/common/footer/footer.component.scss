@@ -1,0 +1,35 @@
+footer {
+  background: rgba(black, .5);
+  color: white;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 20px;
+  a{
+    font-size: 0.8em;
+    color: white;
+  }
+  .quickLinks{
+    margin-left: 80px;
+  }
+  .social{
+    ul{
+      margin-left: 100px;
+    }
+  }
+
+  form{
+    input{
+      height: 40px;
+      width: 65%;
+      padding: 5px 5px 5px 10px;
+    }
+
+    button{
+      background: transparent;
+      border: 1px rgba(black, .5) solid;
+      border-radius: 0;
+      font-weight: bold;
+      padding: 5px 50px;
+    }
+  }
+}
